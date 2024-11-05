@@ -1,0 +1,7 @@
+*.pdf
+*.csv
+*.xlsx
+*.docx
+*.zip
+*.pptx
+.DS_Store
