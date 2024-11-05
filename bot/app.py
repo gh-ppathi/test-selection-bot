@@ -334,9 +334,9 @@ def main():
                                 question = f"Can you please provide more details about the Cancer Stage of the patient?"
                                 st.markdown(question)
                                 st.session_state.chat_history.append({"role": 'assistant', "text": question})
-                                options = f"Please select from the following options: {', '.join(STAGES)}"
-                                st.markdown(options)
-                                st.session_state.chat_history.append({"role": 'assistant', "text": options})
+                                # options = f"Please select from the following options: "
+                                # st.markdown(options)
+                                # st.session_state.chat_history.append({"role": 'assistant', "text": options})
                             elif key == "therapy_status" and st.session_state.attributes["stage"] != "Unknown":
                                 question = f"Can you please provide more details about patient's recent Therapy and Surgery Status?"
                                 st.markdown(question)
