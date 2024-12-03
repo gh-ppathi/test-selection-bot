@@ -6,3 +6,8 @@
 *.pptx
 .DS_Store
 *.pem
+/Sample Docs/
+/spec_sheets/
+*.drawio
+*.jpg
+/screenshots/
